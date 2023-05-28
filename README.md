@@ -9,7 +9,8 @@ We aim to develop an LSTM-based neural network model using Bidirectional Recurre
 The dataset used has a number of sentences, and each words have their tags.
 We have to vectorize these words using Embedding techniques to train our model.
 Bidirectional Recurrent Neural Networks connect two hidden layers of opposite directions to the same output.
-![OP](OP4.png)
+![out](https://github.com/Guru-Guna/named-entity-recognition/assets/93427255/3fddd88d-ac28-40b1-9968-e06b64496799)
+
 
 
 ## DESIGN STEPS
@@ -151,12 +152,14 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![out1](https://github.com/Guru-Guna/named-entity-recognition/assets/93427255/d00faadc-395f-4060-a4ae-760715805897)
+![out2](https://github.com/Guru-Guna/named-entity-recognition/assets/93427255/c0024090-6c56-4d2a-9549-c83641ebd508)
 
-![OP](OP1.png)
-![OP](OP2.png)
+
 
 ### Sample Text Prediction
-![OP](OP3.png)
+![OUT3](https://github.com/Guru-Guna/named-entity-recognition/assets/93427255/2bb4f9f9-06d2-4163-ad19-134bec234346)
+
 
 ## RESULT
 Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
